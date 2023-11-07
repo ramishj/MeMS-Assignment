@@ -1,7 +1,8 @@
 # MeMS-Assignment
 
 <h1><br>MeMS - Memory Management System</br></h1>
-<h3>MeMS (Memory Management System) is a custom memory management system implemented in C. It provides functions for allocating, freeing, and managing memory flexibly and efficiently.</h3>
+<h3>MeMS (Memory Management System) is a custom memory management system implemented in C. 
+  It provides functions for allocating, freeing, and managing memory flexibly and efficiently.</h3>
 <h2>Features</h2>
 <li>Dynamic memory allocation: MeMS allows users to allocate memory of any size by reusing segments from the free list or by using the mmap system call to allocate more memory on the heap.</li>
 <li>Efficient memory management: MeMS optimizes memory usage by reusing unused space from mapping and by merging adjacent free segments.</li>
