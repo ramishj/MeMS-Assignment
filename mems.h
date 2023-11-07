@@ -21,7 +21,7 @@ Use this macro where ever you need PAGE_SIZE.
 As PAGESIZE can differ system to system we should have flexibility to modify this
 macro to make the output of all system same and conduct a fair evaluation.
 */
-#define PAGE_SIZE 16384
+#define PAGE_SIZE 4096
 
 struct Main_node;
 struct Sub_chain_node;
